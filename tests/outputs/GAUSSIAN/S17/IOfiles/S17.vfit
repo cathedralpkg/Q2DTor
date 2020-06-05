@@ -1,0 +1,23 @@
+#----------------------------------------------#
+# fitting correlation: (1.0 - r^2) = 1.5e-04   #
+# average abs. errors:                         #
+#    1.0e+00                                   #
+#    1.2e+00 (for points below mean value)     #
+# elapsed time:    3.9 seconds                 #
+#----------------------------------------------#
+reference -155.2439476 
+const       -     -     +230.42854
+cos        03     -     -103.77852
+cos        06     -       -5.00049
+cos        09     -       +0.47921
+cos         -    03     -103.77852
+cos         -    06       -5.00049
+cos         -    09       +0.47921
+coscos     03    03      -10.18588
+coscos     06    03       -0.35038
+coscos     03    06       -0.35038
+coscos     06    06       -2.94230
+sinsin     03    03       +8.01064
+sinsin     06    03       +0.34613
+sinsin     03    06       +0.34613
+sinsin     06    06       +0.46726

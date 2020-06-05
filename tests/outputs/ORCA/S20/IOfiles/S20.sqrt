@@ -1,0 +1,91 @@
+ref_sqrtD 9.8366E+03
+ref_sqrtS 1.8644E+13
+
+start_sqrtD
+const       -     -       +1.01209
+cos        01     -       -0.00119
+cos        02     -       -0.01404
+cos        03     -       -0.00139
+cos        04     -       +0.00041
+cos        05     -       -0.00004
+cos        06     -       +0.00005
+cos        07     -       +0.00000
+cos        08     -       +0.00001
+cos        09     -       -0.00000
+cos         -    03       +0.00005
+cos         -    06       +0.00009
+cos         -    09       -0.00003
+coscos     01    03       -0.00238
+coscos     02    03       -0.00177
+coscos     03    03       -0.00056
+coscos     04    03       -0.00018
+coscos     05    03       +0.00002
+coscos     06    03       +0.00003
+coscos     07    03       +0.00002
+coscos     01    06       +0.00016
+coscos     02    06       -0.00006
+coscos     03    06       -0.00003
+coscos     04    06       -0.00005
+coscos     05    06       -0.00002
+coscos     06    06       -0.00001
+coscos     07    06       -0.00002
+sinsin     01    03       +0.00102
+sinsin     02    03       +0.00174
+sinsin     03    03       +0.00071
+sinsin     04    03       +0.00021
+sinsin     05    03       -0.00002
+sinsin     06    03       -0.00006
+sinsin     07    03       -0.00005
+sinsin     01    06       -0.00011
+sinsin     02    06       +0.00003
+sinsin     03    06       +0.00001
+sinsin     04    06       +0.00005
+sinsin     05    06       +0.00003
+sinsin     06    06       +0.00002
+sinsin     07    06       +0.00000
+end_sqrtD
+
+start_sqrtS
+const       -     -       +1.02276
+cos        01     -       +0.00325
+cos        02     -       -0.01498
+cos        03     -       -0.00038
+cos        04     -       +0.00050
+cos        05     -       -0.00006
+cos        06     -       +0.00004
+cos        07     -       -0.00001
+cos        08     -       +0.00001
+cos        09     -       -0.00000
+cos         -    03       +0.00453
+cos         -    06       -0.00008
+cos         -    09       -0.00003
+coscos     01    03       -0.00171
+coscos     02    03       -0.00110
+coscos     03    03       -0.00039
+coscos     04    03       -0.00016
+coscos     05    03       +0.00002
+coscos     06    03       +0.00002
+coscos     07    03       +0.00001
+coscos     01    06       +0.00013
+coscos     02    06       -0.00001
+coscos     03    06       -0.00000
+coscos     04    06       -0.00004
+coscos     05    06       -0.00001
+coscos     06    06       -0.00001
+coscos     07    06       -0.00001
+sinsin     01    03       -0.00031
+sinsin     02    03       +0.00080
+sinsin     03    03       +0.00039
+sinsin     04    03       +0.00020
+sinsin     05    03       +0.00001
+sinsin     06    03       -0.00002
+sinsin     07    03       -0.00002
+sinsin     01    06       -0.00004
+sinsin     02    06       +0.00001
+sinsin     03    06       +0.00002
+sinsin     04    06       +0.00004
+sinsin     05    06       +0.00002
+sinsin     06    06       +0.00001
+sinsin     07    06       +0.00000
+end_sqrtS
+

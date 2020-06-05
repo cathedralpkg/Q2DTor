@@ -1,0 +1,39 @@
+ref_sqrtD 1.8989E+04
+ref_sqrtS 6.1351E+12
+
+start_sqrtD
+const       -     -       +1.00320
+cos        03     -       -0.00154
+cos        06     -       +0.00011
+cos        09     -       -0.00000
+cos         -    03       -0.00154
+cos         -    06       +0.00011
+cos         -    09       -0.00000
+coscos     03    03       -0.00035
+coscos     06    03       +0.00002
+coscos     03    06       +0.00002
+coscos     06    06       +0.00001
+sinsin     03    03       +0.00045
+sinsin     06    03       -0.00007
+sinsin     03    06       -0.00007
+sinsin     06    06       -0.00000
+end_sqrtD
+
+start_sqrtS
+const       -     -       +0.99248
+cos        03     -       +0.00478
+cos        06     -       -0.00059
+cos        09     -       +0.00004
+cos         -    03       +0.00478
+cos         -    06       -0.00059
+cos         -    09       +0.00004
+coscos     03    03       -0.00106
+coscos     06    03       +0.00007
+coscos     03    06       +0.00007
+coscos     06    06       -0.00002
+sinsin     03    03       -0.00027
+sinsin     06    03       +0.00022
+sinsin     03    06       +0.00022
+sinsin     06    06       -0.00005
+end_sqrtS
+

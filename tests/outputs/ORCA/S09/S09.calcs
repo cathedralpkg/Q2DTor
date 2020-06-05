@@ -1,0 +1,80 @@
+#-------------------------------------#
+# Geometry optimization at the 2D-PES #
+#-------------------------------------#
+start_scangeom orca
+%pal nprocs 1 end
+! hf 3-21g TightSCF
+! Opt
+[Q2DTor_MOread]
+* xyz 0 1
+[Q2DTor_geometry]
+*
+%geom
+   Constraints
+     {D  0  1  3  6 C }
+     {D  1  3  6  9 C }
+   end
+end
+
+end_scangeom
+#-------------------------------------#
+
+
+
+#-----------------------------#
+start_sp0 orca
+#Optimization of a minimum in the 2D-PES
+%pal nprocs 1 end
+! hf 3-21g TightSCF
+! Opt
+! Freq
+* xyz 0 1
+[Q2DTor_geometry]
+*
+
+end_sp0
+#-----------------------------#
+
+
+
+#-----------------------------#
+start_sp1 orca
+#Optimization of a saddle point in the 2D-PES
+%pal nprocs 1 end
+! hf 3-21g TightSCF
+! OptTs
+! Freq
+* xyz 0 1
+[Q2DTor_geometry]
+*
+%geom
+  Calc_Hess   true       # Calculate Hessian in the beginning
+end
+
+end_sp1
+#-----------------------------#
+
+
+
+#-----------------------------#
+start_sp2 orca
+#Optimization of a maximum in the 2D-PES
+%pal nprocs 1 end
+! hf 3-21g TightSCF
+! Opt
+! Freq
+* xyz 0 1
+[Q2DTor_geometry]
+*
+%geom
+   Constraints
+     {D  0  1  3  6 [Q2DTor_phi1] C }
+     {D  1  3  6  9 [Q2DTor_phi2] C }
+   end
+end
+
+end_sp2
+#-----------------------------#
+
+
+

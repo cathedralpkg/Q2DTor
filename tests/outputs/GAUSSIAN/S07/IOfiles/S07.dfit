@@ -1,0 +1,402 @@
+#----------------------------------------------#
+#            Fitting data for d_11             #
+#----------------------------------------------#
+# Min. 100*d11 value is:   +126.07 
+# Avg. 100*d11 value is:   +133.90 
+# Max. 100*d11 value is:   +140.94 
+start_fitdata11
+const       -     -     +133.78427
+cos        01     -       +0.22655
+cos        02     -       +3.82623
+cos        03     -       -0.90042
+cos        04     -       -0.05833
+cos        05     -       -0.06451
+cos        06     -       +0.01640
+cos        07     -       +0.00256
+cos        08     -       +0.00346
+cos        09     -       -0.00123
+cos         -    01       +1.24255
+cos         -    02       +0.04002
+cos         -    03       +0.00698
+cos         -    04       +0.05205
+cos         -    05       +0.01768
+cos         -    06       -0.03428
+cos         -    07       +0.00362
+cos         -    08       +0.00844
+cos         -    09       -0.00219
+coscos     01    01       -1.24449
+coscos     02    01       +0.73157
+coscos     03    01       -0.34037
+coscos     04    01       +0.10279
+coscos     05    01       -0.04844
+coscos     06    01       +0.02316
+coscos     07    01       -0.00747
+coscos     01    02       +0.88692
+coscos     02    02       -0.34951
+coscos     03    02       +0.36355
+coscos     04    02       -0.13223
+coscos     05    02       +0.04263
+coscos     06    02       -0.00790
+coscos     07    02       +0.00377
+coscos     01    03       +0.33643
+coscos     02    03       +0.17407
+coscos     03    03       -0.23190
+coscos     04    03       +0.15225
+coscos     05    03       -0.04999
+coscos     06    03       +0.01344
+coscos     07    03       -0.00739
+coscos     01    04       -0.08033
+coscos     02    04       -0.01172
+coscos     03    04       +0.07824
+coscos     04    04       -0.07548
+coscos     05    04       +0.04283
+coscos     06    04       -0.02102
+coscos     07    04       +0.00901
+coscos     01    05       +0.03167
+coscos     02    05       -0.04369
+coscos     03    05       +0.05636
+coscos     04    05       -0.00804
+coscos     05    05       -0.01875
+coscos     06    05       +0.01882
+coscos     07    05       -0.00906
+coscos     01    06       -0.00013
+coscos     02    06       +0.04742
+coscos     03    06       -0.03788
+coscos     04    06       +0.01766
+coscos     05    06       -0.00055
+coscos     06    06       -0.00685
+coscos     07    06       +0.00500
+coscos     01    07       -0.00985
+coscos     02    07       +0.01095
+coscos     03    07       -0.00394
+coscos     04    07       -0.00232
+coscos     05    07       +0.00367
+coscos     06    07       -0.00111
+coscos     07    07       -0.00089
+sinsin     01    01       +1.48532
+sinsin     02    01       -0.77693
+sinsin     03    01       +0.34132
+sinsin     04    01       -0.05633
+sinsin     05    01       +0.00767
+sinsin     06    01       -0.00903
+sinsin     07    01       +0.00864
+sinsin     01    02       -1.48734
+sinsin     02    02       +0.38547
+sinsin     03    02       -0.40289
+sinsin     04    02       +0.09391
+sinsin     05    02       -0.01964
+sinsin     06    02       +0.01249
+sinsin     07    02       -0.00743
+sinsin     01    03       +0.30496
+sinsin     02    03       -0.56444
+sinsin     03    03       +0.31733
+sinsin     04    03       -0.15870
+sinsin     05    03       +0.07867
+sinsin     06    03       -0.02843
+sinsin     07    03       +0.00790
+sinsin     01    04       +0.04033
+sinsin     02    04       -0.03123
+sinsin     03    04       -0.03605
+sinsin     04    04       +0.07721
+sinsin     05    04       -0.05022
+sinsin     06    04       +0.01848
+sinsin     07    04       -0.00439
+sinsin     01    05       -0.02316
+sinsin     02    05       +0.04768
+sinsin     03    05       -0.03637
+sinsin     04    05       -0.00723
+sinsin     05    05       +0.01941
+sinsin     06    05       -0.01398
+sinsin     07    05       +0.00722
+sinsin     01    06       -0.05263
+sinsin     02    06       +0.01619
+sinsin     03    06       +0.00622
+sinsin     04    06       -0.01106
+sinsin     05    06       +0.00207
+sinsin     06    06       +0.00605
+sinsin     07    06       -0.00675
+sinsin     01    07       +0.03232
+sinsin     02    07       -0.02434
+sinsin     03    07       -0.00039
+sinsin     04    07       +0.01063
+sinsin     05    07       -0.00744
+sinsin     06    07       +0.00033
+sinsin     07    07       +0.00234
+end_fitdata11
+#----------------------------------------------#
+# fitting correlation: (1.0 - r^2) = 2.8e-05   #
+# average abs. errors:                         #
+#    1.3e-02                                   #
+#    1.4e-02 (for points below mean value)     #
+# elapsed time:  215.4 seconds                 #
+#----------------------------------------------#
+
+
+#----------------------------------------------#
+#            Fitting data for d_22             #
+#----------------------------------------------#
+# Min. 100*d22 value is:     +6.99 
+# Avg. 100*d22 value is:     +7.92 
+# Max. 100*d22 value is:     +9.04 
+start_fitdata22
+const       -     -       +7.88849
+cos        01     -       +0.04983
+cos        02     -       +0.05998
+cos        03     -       -0.00429
+cos        04     -       +0.00295
+cos        05     -       +0.00050
+cos        06     -       -0.00075
+cos        07     -       -0.00002
+cos        08     -       +0.00016
+cos        09     -       -0.00001
+cos         -    01       +0.26970
+cos         -    02       +0.59214
+cos         -    03       -0.03683
+cos         -    04       +0.08428
+cos         -    05       -0.01100
+cos         -    06       +0.01247
+cos         -    07       -0.00464
+cos         -    08       +0.00264
+cos         -    09       -0.00275
+coscos     01    01       -0.03345
+coscos     02    01       +0.08521
+coscos     03    01       +0.00292
+coscos     04    01       -0.00166
+coscos     05    01       -0.00165
+coscos     06    01       +0.00094
+coscos     07    01       -0.00006
+coscos     01    02       +0.10486
+coscos     02    02       -0.01942
+coscos     03    02       +0.00675
+coscos     04    02       -0.00360
+coscos     05    02       -0.00009
+coscos     06    02       +0.00010
+coscos     07    02       +0.00018
+coscos     01    03       -0.01184
+coscos     02    03       +0.02044
+coscos     03    03       -0.00994
+coscos     04    03       +0.00392
+coscos     05    03       -0.00026
+coscos     06    03       -0.00004
+coscos     07    03       -0.00028
+coscos     01    04       -0.00711
+coscos     02    04       +0.00689
+coscos     03    04       -0.00368
+coscos     04    04       -0.00060
+coscos     05    04       +0.00061
+coscos     06    04       -0.00068
+coscos     07    04       +0.00039
+coscos     01    05       -0.00153
+coscos     02    05       -0.00516
+coscos     03    05       +0.00486
+coscos     04    05       -0.00146
+coscos     05    05       -0.00058
+coscos     06    05       +0.00084
+coscos     07    05       -0.00035
+coscos     01    06       +0.00384
+coscos     02    06       +0.00220
+coscos     03    06       -0.00303
+coscos     04    06       +0.00157
+coscos     05    06       -0.00002
+coscos     06    06       -0.00031
+coscos     07    06       +0.00014
+coscos     01    07       +0.00056
+coscos     02    07       -0.00035
+coscos     03    07       +0.00024
+coscos     04    07       -0.00014
+coscos     05    07       +0.00025
+coscos     06    07       -0.00020
+coscos     07    07       +0.00005
+sinsin     01    01       +0.11300
+sinsin     02    01       -0.12380
+sinsin     03    01       +0.01000
+sinsin     04    01       +0.00070
+sinsin     05    01       -0.00014
+sinsin     06    01       -0.00063
+sinsin     07    01       +0.00061
+sinsin     01    02       -0.11479
+sinsin     02    02       +0.03970
+sinsin     03    02       -0.01786
+sinsin     04    02       -0.00108
+sinsin     05    02       +0.00098
+sinsin     06    02       +0.00079
+sinsin     07    02       -0.00049
+sinsin     01    03       +0.02673
+sinsin     02    03       -0.02161
+sinsin     03    03       +0.00729
+sinsin     04    03       -0.00273
+sinsin     05    03       +0.00129
+sinsin     06    03       -0.00056
+sinsin     07    03       +0.00013
+sinsin     01    04       -0.00214
+sinsin     02    04       -0.01035
+sinsin     03    04       +0.00113
+sinsin     04    04       +0.00204
+sinsin     05    04       -0.00162
+sinsin     06    04       +0.00063
+sinsin     07    04       -0.00005
+sinsin     01    05       -0.00283
+sinsin     02    05       +0.00617
+sinsin     03    05       -0.00185
+sinsin     04    05       +0.00041
+sinsin     05    05       +0.00038
+sinsin     06    05       -0.00039
+sinsin     07    05       +0.00022
+sinsin     01    06       -0.00471
+sinsin     02    06       -0.00143
+sinsin     03    06       +0.00080
+sinsin     04    06       -0.00161
+sinsin     05    06       +0.00061
+sinsin     06    06       +0.00017
+sinsin     07    06       -0.00030
+sinsin     01    07       +0.00300
+sinsin     02    07       -0.00163
+sinsin     03    07       +0.00042
+sinsin     04    07       +0.00072
+sinsin     05    07       -0.00044
+sinsin     06    07       -0.00001
+sinsin     07    07       +0.00010
+end_fitdata22
+#----------------------------------------------#
+# fitting correlation: (1.0 - r^2) = 7.9e-06   #
+# average abs. errors:                         #
+#    9.9e-04                                   #
+#    1.2e-03 (for points below mean value)     #
+# elapsed time:  232.0 seconds                 #
+#----------------------------------------------#
+
+
+#----------------------------------------------#
+#            Fitting data for d_12             #
+#----------------------------------------------#
+# Min. 100*d12 value is:     -5.84 
+# Avg. 100*d12 value is:     -0.62 
+# Max. 100*d12 value is:     +6.19 
+start_fitdata12
+const       -     -       -0.77984
+cos        01     -       +3.97563
+cos        02     -       -0.04544
+cos        03     -       +0.02173
+cos        04     -       -0.02708
+cos        05     -       -0.00053
+cos        06     -       -0.00153
+cos        07     -       +0.00052
+cos        08     -       +0.00043
+cos        09     -       -0.00005
+cos         -    01       +1.81808
+cos         -    02       +0.11504
+cos         -    03       +0.12545
+cos         -    04       -0.03814
+cos         -    05       +0.01389
+cos         -    06       -0.01456
+cos         -    07       +0.00469
+cos         -    08       +0.00056
+cos         -    09       +0.00136
+coscos     01    01       +0.86889
+coscos     02    01       -0.00537
+coscos     03    01       +0.06613
+coscos     04    01       -0.01145
+coscos     05    01       +0.00356
+coscos     06    01       -0.00128
+coscos     07    01       +0.00078
+coscos     01    02       -0.09351
+coscos     02    02       -0.02018
+coscos     03    02       +0.00132
+coscos     04    02       +0.00341
+coscos     05    02       -0.00578
+coscos     06    02       +0.00331
+coscos     07    02       -0.00075
+coscos     01    03       +0.13094
+coscos     02    03       +0.02669
+coscos     03    03       -0.01449
+coscos     04    03       +0.00819
+coscos     05    03       +0.00363
+coscos     06    03       -0.00299
+coscos     07    03       +0.00052
+coscos     01    04       +0.04243
+coscos     02    04       -0.00695
+coscos     03    04       +0.00814
+coscos     04    04       -0.00536
+coscos     05    04       -0.00014
+coscos     06    04       +0.00057
+coscos     07    04       -0.00024
+coscos     01    05       +0.01493
+coscos     02    05       -0.00493
+coscos     03    05       +0.00650
+coscos     04    05       -0.00045
+coscos     05    05       -0.00088
+coscos     06    05       +0.00050
+coscos     07    05       +0.00013
+coscos     01    06       +0.01642
+coscos     02    06       -0.00018
+coscos     03    06       -0.00304
+coscos     04    06       -0.00050
+coscos     05    06       +0.00030
+coscos     06    06       -0.00034
+coscos     07    06       +0.00003
+coscos     01    07       -0.00580
+coscos     02    07       +0.00325
+coscos     03    07       -0.00149
+coscos     04    07       +0.00105
+coscos     05    07       +0.00031
+coscos     06    07       -0.00028
+coscos     07    07       +0.00002
+sinsin     01    01       -2.17892
+sinsin     02    01       -0.01352
+sinsin     03    01       -0.05779
+sinsin     04    01       +0.03795
+sinsin     05    01       -0.00634
+sinsin     06    01       +0.00137
+sinsin     07    01       +0.00004
+sinsin     01    02       +0.10634
+sinsin     02    02       +0.05817
+sinsin     03    02       -0.02185
+sinsin     04    02       -0.00971
+sinsin     05    02       +0.00530
+sinsin     06    02       -0.00029
+sinsin     07    02       -0.00032
+sinsin     01    03       -0.39143
+sinsin     02    03       -0.00946
+sinsin     03    03       -0.00324
+sinsin     04    03       +0.00622
+sinsin     05    03       -0.00169
+sinsin     06    03       +0.00192
+sinsin     07    03       -0.00125
+sinsin     01    04       +0.09253
+sinsin     02    04       -0.00760
+sinsin     03    04       -0.00402
+sinsin     04    04       +0.00351
+sinsin     05    04       -0.00208
+sinsin     06    04       -0.00074
+sinsin     07    04       +0.00102
+sinsin     01    05       -0.05145
+sinsin     02    05       +0.00390
+sinsin     03    05       -0.00045
+sinsin     04    05       -0.00097
+sinsin     05    05       +0.00092
+sinsin     06    05       +0.00012
+sinsin     07    05       -0.00028
+sinsin     01    06       +0.02276
+sinsin     02    06       +0.00075
+sinsin     03    06       +0.00227
+sinsin     04    06       -0.00274
+sinsin     05    06       +0.00096
+sinsin     06    06       +0.00006
+sinsin     07    06       -0.00023
+sinsin     01    07       -0.00558
+sinsin     02    07       -0.00476
+sinsin     03    07       +0.00062
+sinsin     04    07       +0.00110
+sinsin     05    07       -0.00049
+sinsin     06    07       -0.00017
+sinsin     07    07       +0.00024
+end_fitdata12
+#----------------------------------------------#
+# fitting correlation: (1.0 - r^2) = 1.8e-06   #
+# average abs. errors:                         #
+#    3.3e-03                                   #
+#    3.9e-03 (for points below mean value)     #
+# elapsed time:  575.2 seconds                 #
+#----------------------------------------------#
+
+
